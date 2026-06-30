@@ -136,44 +136,12 @@ ECC is used as a **vision-only pretraining strategy that strengthens the visual 
 | AIM-v2 | ViT-L/14 | 86.23 | **87.11** |
 | LLaVA | ViT-L/14 | 84.76 | **85.42** |
 
-<!-- 최종본 수치와 한 번 대조하세요 -->
-
----
-
-## Model Zoo
-
-Pretrained checkpoints will be released here.
-
-| Model | Backbone | Epochs | Checkpoint |
-|-------|----------|--------|------------|
-| ECC | ViT-B | 400 | _Coming soon_ |
-| ECC | ViT-L | 400 | _Coming soon_ |
-
----
-
-## Citation
-
-If you find this work useful, please consider citing:
-
-```bibtex
-@inproceedings{<key>2026ecc,
-  title     = {ECC: Encoder-Centric Corruption for Fine-Grained Vision in VLMs},
-  author    = {<Author list>},
-  booktitle = {European Conference on Computer Vision (ECCV)},
-  year      = {2026}
-}
-```
-
 ---
 
 ## Acknowledgement
 
 This codebase builds upon [MAE](https://github.com/facebookresearch/mae), [SimMIM](https://github.com/microsoft/SimMIM), and related masked image modeling works. We thank the authors for releasing their code. <!-- 실제로 참조한 repo에 맞게 수정 -->
 
-## License
-
-This project is released under the &lt;LICENSE&gt; License. See [LICENSE](LICENSE) for details. <!-- 예: MIT, Apache-2.0 -->
-
 ## Contact
 
-For questions, please open an issue or contact &lt;email&gt;.
+For questions, please open an issue or contact &lt;hyesong@ssu.ac.kr&gt;.
